@@ -1,12 +1,7 @@
-body {
-    background-color: #1e140b;
-    opacity: 1;
-}
-
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('Images/videogamedesign.jpeg');
+    background: linear-gradient(rgba(204, 204, 153, 0.5),rgba(0, 0, 0, 0.333)) , url('Images/videogamedesign.jpeg');
     background-size:cover;
     position:relative;
 }
@@ -32,33 +27,47 @@ body {
 }
 
 .imageContactPage {
-    width: 50%;
+    width: 100%;
 }
 
 a:link {
-    color: rgb(179, 141, 108);
+    color: #58422dde;
     background-color: transparent;
     text-decoration: none;
-  }
+}
   
-  a:visited {
-    color: rgb(88, 60, 35);
+a:visited {
+    color: #58422dde;
     background-color: transparent;
     text-decoration: none;
-  }
+}
   
-  a:hover {
-    color: rgb(221, 206, 37);
+a:hover {
+    color: #58422dde;
     background-color: transparent;
     text-decoration: underline;
-  }
+}
   
-  a:active {
-    color: yellow;
+a:active {
+    color: #58422dde;
     background-color: transparent;
     text-decoration: underline;
-  }
+}
 
+h1 {
+    color:#58422dde;
+}
+
+/* button stuff */
+.button {
+    color:rgba(20, 20, 20, 0.75);
+    background-color: rgba(219, 241, 222, 0.938);
+    transition-duration: 0.4s;
+}
+  
+.button:hover {
+    background-color: #42853f; /* Green */
+}
 
 /* delete this after */
 
