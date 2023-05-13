@@ -1,7 +1,12 @@
+body {
+    background-color: #1e140b;
+    opacity: 1;
+}
+
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('Images/videogamedesign.jpeg');
+    background: url('Images/videogamedesign.jpeg');
     background-size:cover;
     position:relative;
 }
@@ -30,12 +35,29 @@
     width: 50%;
 }
 
-/* display background color black on navbar scroll */
-.navbarScroll.navbarDark {
-    background-color: black;
-}
-
-
+a:link {
+    color: rgb(179, 141, 108);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(88, 60, 35);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(221, 206, 37);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
 
 
 /* delete this after */
